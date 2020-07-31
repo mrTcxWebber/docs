@@ -2,7 +2,7 @@ const moment = require('moment')
 moment.locale('zh-CN')
 
 module.exports = {
-    dest: './dist',
+    base: '/docs/',
     repo: 'https://github.com/su37josephxia/frontend-basic',
     title: 'va管理后台文档',
     plugins: [
